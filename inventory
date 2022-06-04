@@ -1,0 +1,9 @@
+[Kubernetes]
+master ansible_ssh_host=127.0.0.1 ansible_ssh_port=2222  ansible_private_key_file=.vagrant/machines/master/virtualbox/private_key
+node01 ansible_ssh_host=127.0.0.1 ansible_ssh_port=2200  ansible_private_key_file=.vagrant/machines/node01/virtualbox/private_key
+node02 ansible_ssh_host=127.0.0.1 ansible_ssh_port=2201  ansible_private_key_file=.vagrant/machines/node02/virtualbox/private_key
+[worker]
+node01 ansible_ssh_host=127.0.0.1 ansible_ssh_port=2200  ansible_private_key_file=.vagrant/machines/node01/virtualbox/private_key
+node02 ansible_ssh_host=127.0.0.1 ansible_ssh_port=2201  ansible_private_key_file=.vagrant/machines/node02/virtualbox/private_key
+[master]
+master ansible_ssh_host=127.0.0.1 ansible_ssh_port=2222  ansible_private_key_file=.vagrant/machines/master/virtualbox/private_key
